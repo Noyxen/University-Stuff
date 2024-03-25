@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:linear-gradient(to right, #CAEFD7,#D1E7D7,#D8DFD7,#E0D7D7,#E7CFD7,#EEC7D7, #F5BFD7);
+
+}
+.Name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background:linear-gradient(to right, #CAEFD7,#D1E7D7,#D8DFD7,#E0D7D7,#E7CFD7,#EEC7D7, #F5BFD7);
+    -webkit-text-fill-color:#d2a7be;
+    color: #222;
+    border-radius: 300px;
+    border-style: dotted;
+    border-color: #F5BFD7;
+}
+.GifLeft {
+    float: left;
+    border-style: dotted;
+    border-color: #F5BFD7;
+    border-radius:30px ;
+
+
+}
+.GifRight {
+    text-align: right;
+    float: right;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-style: dotted;
+    border-color: #F5BFD7;
+    border-radius: 30px;
+
+}
+
+.Bodinho {
+    justify-content: center;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 300px;
+    border-style: dotted;
+    border-color: #F5BFD7;
+
+
+}
+.Socialmedia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background:linear-gradient(to right, #CAEFD7,#D1E7D7,#D8DFD7,#E0D7D7,#E7CFD7,#EEC7D7, #F5BFD7);
+    -webkit-text-fill-color:#d2a7be;
+    color: #222;
+    border-radius: 300px;
+    border-style: dotted;
+    border-color: #F5BFD7;
+    text-decoration: none;
+}
+.AboutMe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background:linear-gradient(to right, #CAEFD7,#D1E7D7,#D8DFD7,#E0D7D7,#E7CFD7,#EEC7D7, #F5BFD7);
+    -webkit-text-fill-color:#d2a7be;
+    color: #222;
+    border: solid;
+    border-color: #d2a7be;
+    border-style: dotted;
+}
+.List {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background:linear-gradient(to right, #CAEFD7,#D1E7D7,#D8DFD7,#E0D7D7,#E7CFD7,#EEC7D7, #F5BFD7);
+    text-decoration: none;
+    -webkit-text-fill-color:#d2a7be;
+}

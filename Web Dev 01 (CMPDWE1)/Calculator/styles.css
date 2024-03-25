@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arvo', sans-serif;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(to right,#9D80CB,#AC8BD0,#BB96D4,#CAA1D9,#D9ACDD,#E8B7E2,#F7C2E6);
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns:repeat(4, 100px);
+    grid-template-rows:minmax(120px, auto)repeat(5, 100px);
+}
+
+.grid-container > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color:linear-gradient(to top,#9D80CB,#AC8BD0,#BB96D4,#CAA1D9,#D9ACDD,#E8B7E2,#F7C2E6);
+    color: #D9ACDD
+    a
+}
+
+.grid-container > .operator {
+    background-color:#AC8BD0;
+}
+.span-two {
+    grid-column: span 2;
+}
+.grid-container > .output {
+    grid-column: 1/-1;
+    background: #AC8BD0;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.grid-container > .output > .previous-operand {
+    color: #F7C2E6;
+    font-size: 1.5rem;
+}
+.grid-container > .output > .current-operand{
+    color: #F7C2E6;
+    font-size: 2.5rem;
+}
+.DanceLeft {
+    float: left;
+    float: left;
+    border-style: dotted;
+    border-color: #CAA1D9;
+  
+
+}
+.DanceRight {
+    text-align: right;
+    float: right;
+    border-style: dotted;
+    border-color: #CAA1D9;
+    
+
+}
+h1 {
+    text-align: center;
+    color: #AC8BD0;
+    border-style: dotted;
+    border-color: #CAA1D9;
+    padding: 10px;
+    
+}
+.ProtoLeft {
+    float: left;
+    float: left;
+    border-style: dotted;
+    border-color: #CAA1D9;
+}
+
+.ProtoRight {
+    text-align: right;
+    float: right;
+    border-style: dotted;
+    border-color: #CAA1D9;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.ProtonLeft {
+    float: left;
+    float: left;
+    border-style: dotted;
+    border-color: #CAA1D9;
+
+}
+.ProtonRight {
+    text-align: right;
+    float: right;
+    border-style: dotted;
+    border-color: #CAA1D9;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
