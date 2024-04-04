@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica de Nutrição</h1><br>
+    </header>
+        <nav>
+            <h2>Adicionar Novo Paciente</h2><br>
+        </nav>
+            <section>
+                <form>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="nome" nome="Nome"><br>
+                    <label for="Peso">Peso(Kg):</label>
+                    <input type="text" id="peso" peso="Peso">
+                    <label for="Altura">Altura:</label>
+                    <input type="text" id="altura" altura="Altura">
+                    <label for="Gordura">% de Gordura:</label>
+                    <input type="text" id="gordura" gordura="Gordura"><br>
+                    <button type="submit" onclick="CalcularIMC()">Adicionar</button>
+                    <button type="button" onclick="loadDoc()">Carregar</button>
+                    <table id="tabela"></table>
+                    <h2>Meus Pacientes</h2><br>
+
+                    
+
+
+
+
+
+
+
+                    </label>
+
+
+
+
+
+                </form>
+                    <table id="tabela">
+                        <thead>
+                        <tr>
+                            <th>Nome|</th>
+                            <th>Peso(Kg)|</th>
+                            <th>Altura|</th>
+                            <th>% de Gordura|</th>
+                            <th>IMC|</th>
+                        </tr>
+                        </thead>
+                        <tbody id="CorpoTabela"></tbody>
+                    </table>
+
+
+            </section>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

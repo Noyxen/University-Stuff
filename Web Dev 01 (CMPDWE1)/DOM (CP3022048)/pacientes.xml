@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pacientes>
+  <Ficha>
+    <nome>Augusto</nome>
+    <peso>70</peso>
+    <altura>180</altura>
+    <gordura>10%</gordura>
+    <imc>10</imc>
+  </Ficha>
+      <Ficha>
+    <nome>Felipe</nome>
+    <peso>80</peso>
+    <altura>160</altura>
+    <gordura>15%</gordura>
+    <imc>11</imc>
+  </Ficha>
+      <Ficha>
+    <nome>Henrique</nome>
+    <peso>55</peso>
+    <altura>145</altura>
+    <gordura>2%</gordura>
+    <imc>13</imc>
+  </Ficha>
+</Pacientes>
